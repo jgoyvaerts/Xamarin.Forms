@@ -2,13 +2,11 @@
 
 namespace Xamarin.Platform
 {
-	public interface IText : IFont, ITextAlignment
+	public interface IText : IFont
 	{
 		string Text { get; }
 
-		Color Color { get; }
-
-		Font Font { get; }
+		Color TextColor { get; }
 
 		TextTransform TextTransform { get; }
 

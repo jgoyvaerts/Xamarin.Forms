@@ -10,15 +10,13 @@ namespace Sample
 
 		public string Text { get; set; }
 
-		public Color Color { get; set; }
+		public Color TextColor { get; set; }
 
 		public int CornerRadius { get; set; } = DefaultCornerRadius;
 
 		public Color BorderColor { get; set; }
 
 		public double BorderWidth { get; set; }
-
-		public Font Font { get; set; }
 
 		public string FontFamily { get; set; }
 

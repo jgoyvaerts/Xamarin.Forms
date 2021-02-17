@@ -24,7 +24,7 @@ namespace Sample
 			var button = new Button() { Text = "A Button", Width = 200 };
 			var button2 = new Button()
 			{
-				Color = Color.Green,
+				TextColor = Color.Green,
 				Text = "Hello I'm a button",
 				BackgroundColor = Color.Purple,
 				Margin = new Thickness(12)
@@ -35,6 +35,8 @@ namespace Sample
 			horizontalStack.Add(new Label { Text = "And these buttons are in a HorizontalStackLayout" });
 
 			verticalStack.Add(horizontalStack);
+			verticalStack.Add(new Entry { TextColor = Color.DarkRed });
+			verticalStack.Add(new Entry { IsPassword = true, TextColor = Color.Black });
 			verticalStack.Add(new Slider());
 
 			return verticalStack;
