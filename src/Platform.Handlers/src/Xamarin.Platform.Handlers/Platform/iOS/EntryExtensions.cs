@@ -26,61 +26,6 @@ namespace Xamarin.Platform
 				textField.TextColor = entry.TextColor.ToNative();
 		}
 
-		public static void UpdateFont(this UITextField textField, IEntry entry)
-		{
-
-		}
-
-		public static void UpdateTextTransform(this UITextField textField, IEntry entry)
-		{
-			
-		}
-
-		public static void UpdateCharacterSpacing(this UITextField textField, IEntry entry)
-		{
-	
-		}
-
-		public static void UpdatePlaceholder(this UITextField textField, IEntry entry)
-		{
-
-		}
-
-		public static void UpdatePlaceholderColor(this UITextField textField, IEntry entry)
-		{
-
-		}
-
-		public static void UpdateMaxLength(this UITextField textField, IEntry entry)
-		{
-
-		}
-
-		public static void UpdateIsReadOnly(this UITextField textField, IEntry entry)
-		{
-
-		}
-
-		public static void UpdateKeyboard(this UITextField textField, IEntry entry)
-		{
-		
-		}
-
-		public static void UpdateIsSpellCheckEnabled(this UITextField textField, IEntry entry)
-		{
-	
-		}
-
-		public static void UpdateHorizontalTextAlignment(this UITextField textField, IEntry entry)
-		{
-
-		}
-
-		public static void UpdateVerticalTextAlignment(this UITextField textField, IEntry entry)
-		{
-		
-		}
-
 		public static void UpdateIsPassword(this UITextField textField, IEntry entry)
 		{
 			if (entry.IsPassword && textField.IsFirstResponder)
@@ -92,31 +37,6 @@ namespace Xamarin.Platform
 			}
 			else
 				textField.SecureTextEntry = entry.IsPassword;
-		}
-
-		public static void UpdateReturnType(this UITextField textField, IEntry entry)
-		{
-			
-		}
-
-		public static void UpdateCursorPosition(this UITextField textField, IEntry entry)
-		{
-		
-		}
-
-		public static void UpdateSelectionLength(this UITextField textField, IEntry entry)
-		{
-			
-		}
-
-		public static void UpdateIsTextPredictionEnabled(this UITextField textField, IEntry entry)
-		{
-
-		}
-
-		public static void UpdateClearButtonVisibility(this UITextField textField, IEntry entry)
-		{
-
 		}
 	}
 }

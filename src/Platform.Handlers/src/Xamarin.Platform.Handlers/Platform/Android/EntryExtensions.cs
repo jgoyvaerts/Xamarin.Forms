@@ -21,89 +21,9 @@ namespace Xamarin.Platform
 			textColorSwitcher.UpdateTextColor(editText, entry.TextColor);
 		}
 
-		public static void UpdateFont(this EditText editText, IEntry entry)
-		{
-
-		}
-
-		public static void UpdateTextTransform(this EditText editText, IEntry entry)
-		{
-			
-		}
-
-		public static void UpdateCharacterSpacing(this EditText editText, IEntry entry)
-		{
-	
-		}
-
-		public static void UpdatePlaceholder(this EditText editText, IEntry entry)
-		{
-
-		}
-
-		public static void UpdatePlaceholderColor(this EditText editText, IEntry entry)
-		{
-
-		}
-
-		public static void UpdateMaxLength(this EditText editText, IEntry entry)
-		{
-
-		}
-
-		public static void UpdateIsReadOnly(this EditText editText, IEntry entry)
-		{
-	
-		}
-
-		public static void UpdateKeyboard(this EditText editText, IEntry entry)
-		{
-		
-		}
-
-		public static void UpdateIsSpellCheckEnabled(this EditText editText, IEntry entry)
-		{
-		
-		}
-
-		public static void UpdateHorizontalTextAlignment(this EditText editText, IEntry entry)
-		{
-		
-		}
-
-		public static void UpdateVerticalTextAlignment(this EditText editText, IEntry entry)
-		{
-	
-		}
-
 		public static void UpdateIsPassword(this EditText editText, IEntry entry)
 		{
 			editText.SetInputType(entry);
-		}
-
-		public static void UpdateReturnType(this EditText editText, IEntry entry)
-		{
-			
-		}
-
-		public static void UpdateCursorPosition(this EditText editText, IEntry entry)
-		{
-			
-		}
-
-		public static void UpdateSelectionLength(this EditText editText, IEntry entry)
-		{
-		
-		}
-
-		public static void UpdateIsTextPredictionEnabled(this EditText editText, IEntry entry)
-		{
-			
-		}
-
-		public static void UpdateClearButtonVisibility(this EditText editText, IEntry entry)
-		{
-
 		}
 
 		internal static void SetInputType(this EditText editText, IEntry entry)
