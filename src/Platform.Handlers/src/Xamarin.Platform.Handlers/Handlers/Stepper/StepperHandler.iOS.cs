@@ -21,7 +21,7 @@ namespace Xamarin.Platform.Handlers
 			nativeView.ValueChanged -= OnValueChanged;
 		}
 
-		void OnValueChanged(object sender, EventArgs e)
+		void OnValueChanged(object? sender, EventArgs e)
 		{
 			if (TypedNativeView == null || VirtualView == null)
 				return;
