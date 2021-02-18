@@ -9,7 +9,8 @@ namespace Xamarin.Forms
 		// And other scenarios
 		public static void InitHandlers()
 		{
-			Platform.Registrar.Handlers.Register(typeof(Entry), typeof(EntryHandler));
+			// Platform.Registrar.Handlers.Register(typeof(Entry), typeof(EntryHandler));
+			Platform.Registrar.Handlers.Register(typeof(Slider), typeof(SliderHandler));
 		}
 	}
 }
